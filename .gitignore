@@ -1,0 +1,20 @@
+# Course material (not mine)
+All_source_codes/
+ppt/
+*.pdf
+
+# Eclipse / STM32CubeIDE
+.metadata/
+.settings/language.settings.xml
+
+# Build outputs
+Debug/
+Release/
+build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.out
