@@ -18,12 +18,10 @@
 
 #include <stdio.h>
 
-extern void initialise_monitor_handles(void);
 
 int main(void)
 {
-    initialise_monitor_handles();
 
-    printf("Hello World!\n");
+    printf("Size of char data type is %u\n",sizeof(shar));
     for(;;);
 }
